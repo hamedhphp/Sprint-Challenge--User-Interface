@@ -59,6 +59,7 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
+    font-weight: bold;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -101,7 +102,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 ,.box2 ,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -111,6 +112,26 @@ p {
     align-items: center;
     justify-content: center;
 }
+.middle-content .boxes .box1{
+    background-color: teal;}
+    .middle-content .boxes .box2{
+        background-color: gold;}
+        .middle-content .boxes .box3{
+            background-color: cadetblue;}
+            .middle-content .boxes .box4{
+                background-color: coral;}
+                .middle-content .boxes .box5{
+                    background-color: crimson;}
+                    .middle-content .boxes .box6{
+                        background-color: forestgreen;}
+                        .middle-content .boxes .box7{
+                            background-color: darkorchid;}
+                            .box8{
+                                background-color: hotpink;}
+                            .middle-content .boxes .box9{
+                                background-color: indigo;}
+                                .middle-content .boxes .box10{
+                                    background-color: dodgerblue;}
 
 .bottom-content {
     display: flex;
@@ -144,3 +165,73 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.Navigation{
+     border: 1px solid;
+     padding: 5px;}
+header nav{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+     border: 1px solid;
+     padding: 20px;}
+     header nav a { margin: 20px;
+       
+        padding: 1.5rem;
+        font-size:15px ;
+        font-weight: bold;
+        border-radius: 4px;
+        color: black;
+        text-decoration: none;
+        margin-bottom: 10px;
+         inline-space: 1.5px;}
+         header nav a:hover{ background-color: gray;}
+nav img {
+    height: 100%;
+    margin: 20px;}
+.my-pic	{display: flex;
+flex-flow: row wrap;
+justify-content: center;
+padding: 20px;
+margin: 20px;
+width: 100%;
+border: solid;}
+@media (max-width:900px){
+    header nav{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   justify-content: space-evenly;}
+   header nav a{
+  box-sizing: border-box;
+  list-style-type: none;
+  margin:20;
+  padding: 15;
+  background-color:lightgrey);
+  min-width: 200px;
+  text-align: center;
+  display: block; 
+  padding: 10px;
+  border-bottom: 2px solid white;
+  
+  } 
+  .middle-content .boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.top-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+  header nav a:hover{ background-color: gray;}}
+
+   
